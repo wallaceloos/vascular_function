@@ -7,6 +7,7 @@ This is a TensorFlow implementation for the Vascular Function Extraction Model (
  - Python 3.6 
  - Numpy 
  - Scipy
+ - Pandas
 
 ### Preparing the data
 
@@ -52,4 +53,9 @@ To train the model you can run:
 
 ### Evaluating Model
 
-To evaluate the model you can run:
+To evaluate the model you can run:  
+ 
+    python main_vif.py --mode eval --input_folder /path/to/data/folder/ \
+    --model_weight_path  /path/to/model/weight.h5 --save_output_path /path/to/folder/to/save/results/
+  
+
