@@ -16,7 +16,7 @@ This is a TensorFlow implementation for the Vascular Function Extraction Model (
 
 ### Inference
 
-To use the model you can load the weights provided [here](https://uofc-my.sharepoint.com/:u:/g/personal/wallace_souzaloos_ucalgary_ca/EXag02L5-39Lo0s270Y-sbABWROue25nwFF-cVvkHxcUMA?e=jf88Gf) and run:
+To use the model you can load the weights provided [here](https://uofc-my.sharepoint.com/:u:/g/personal/wallace_souzaloos_ucalgary_ca/EXag02L5-39Lo0s270Y-sbABWROue25nwFF-cVvkHxcUMA?e=QhtApS) and run:
 
     python main_vif.py --mode inference --input_path /path/to/data/input_data.npy \
     --model_weight_path /path/to/model_weight/weight.h5  \
