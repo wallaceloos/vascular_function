@@ -16,13 +16,13 @@ This is a TensorFlow implementation for the Vascular Function Extraction Model (
 
 ### Inference
 
-To use the model you can load the weights provided [here](https://uofc-my.sharepoint.com/:u:/g/personal/wallace_souzaloos_ucalgary_ca/EXag02L5-39Lo0s270Y-sbABWROue25nwFF-cVvkHxcUMA?e=QhtApS) and run:
+To use the model you can load the weights provided [here](https://uofc-my.sharepoint.com/:u:/g/personal/wallace_souzaloos_ucalgary_ca/EXag02L5-39Lo0s270Y-sbABWROue25nwFF-cVvkHxcUMA?e=iOFeXE) and run:
 
     python main_vif.py --mode inference --input_path /path/to/data/input_data.npy \
     --model_weight_path /path/to/model_weight/weight.h5  \
     --save_output_path /path/to/folder/output/
 
-
+A sample from the dataset can be download [here](https://uofc-my.sharepoint.com/:f:/g/personal/wallace_souzaloos_ucalgary_ca/Egus2uREswlOidCIwCf99wwBwED4lmWavcNNc370oSow6g?e=cs8lmH).
 <p align="justify">The model will predict a vascular function and a 3D mask. Because the original data was undersampled, the predicted vascular function will only have the number of points that was undersampled. Please, use the 3D mask predicted over the original data to estimate a new vascular function. The pretrained model is using the following weight loss: 0.3 and 0.7. These weights were the ones in which the model achieved the best results.
 
 ### Training
