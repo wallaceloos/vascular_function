@@ -1,5 +1,5 @@
 This is a TensorFlow implementation for the Vascular Function Extraction Model (VFEM). A pretrained model is also provided.  
-
+Paper: [Extraction of a vascular function for a fully automated dynamic contrast-enhanced magnetic resonance brain image processing pipeline](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29054)
 ### Requirements
 
  - TensorFlow 2.3 
